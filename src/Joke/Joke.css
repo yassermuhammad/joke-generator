@@ -1,8 +1,8 @@
 /* Joke.css */
 
 body {
-    background-color: rgb(47, 97, 80);
-    width: 500px;
+    /* background-color: rgb(47, 97, 80); */
+    /* width: 500px; */
     margin: auto;
     padding: 30px;
 }
@@ -16,6 +16,16 @@ body {
     align-items: center;
     justify-content: center;
     color: beige;
+}
+.joke-options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.option-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 h1 {
