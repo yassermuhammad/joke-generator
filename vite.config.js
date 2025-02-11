@@ -16,6 +16,7 @@ export default defineConfig({
       ],
     })
   ],
+  base: '/joke-generator/',
   build: {
     outDir: 'build',
     rollupOptions: {
